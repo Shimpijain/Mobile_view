@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+.main {
+  float: left;
+  width: 60%;
+  padding: 0 20px;
+  overflow: hidden;
+}
+
+@media only screen and (max-width:800px) {
+  /* For tablets: */
+  .main {
+    width: 80%;
+    padding: 0;
+  }
+  .right {
+    width: 100%;
+  }
+}
+@media only screen and (max-width:500px) {
+  /* For mobile phones: */
+  .menu, .main, .right {
+    width: 100%;
+  }
+}
+.navbar {
+  width: 100%;
+  overflow: auto;
+}
+
+
+
+@media screen and (max-width: 500px) {
+  .navbar a {
+    float: none;
+    display: block;
+  }
+}
+.menu {
+  background: none repeat scroll 0 0 #0196f3;
+  border-radius: 5px;   
+  box-sizing: border-box;
+  margin-top: 17px;
+  padding: 20px 0;
+  position: absolute;
+  width: 150px;
+  z-index: 100;
+    
+    
+}
+.book li:hover{
+  height:100px;
+}
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  
+}
+
+li {
+  padding: 0;
+  margin: 0;
+}
+
+
+.main1 li a {
+    color: white;
+    display: block;
+    font-size: 12px;
+    font-weight: bold;
+    padding: 10px;
+    text-decoration: none;
+}
+
+.main1 li:hover {
+  background:#EAAB36;
+  color:white;
+  
+}
+
+.main1 ul {
+  display: none;
+}
+
+.menu:hover {
+
+  background: #0196f3;
+  z-index: 1000;
+}
+
+
+.main1 li:hover ul {
+  top:0px !important ;
+  padding:20px 0;
+  box-sizing:border-box;
+  height:125px;
+  display: block;
+  position:absolute;
+  left: 125px;
+  width:150px;
+  color:black;
+  bottom:0px!important;
+  z-index: 99;
+  border-radius: 5px;
+  box-shadow: 0 0 6px 1px #eaab36;   
+  background:#EAAB36;
+}
+.main1 li:hover ul li a {
+  color:#0196F3 !important;
+}
+
+.content {
+  margin-left: 350px;
+  font-size: 30px;
+}
+.dash_board {
+  width:1000px;padding:0px;margin-left:-240px;
+}
+.dash_board li {
+  border-radius: 10px;
+    box-shadow: 0 0 5px 2px;
+    float: right;
+    height: 130px;
+    margin: 20px;
+    margin-left: 45px;
+    width:105px;
+}
+</style>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body style="font-family:Verdana;">
+
+<div style="padding:15px;">
+  <div class="navbar">
+  <i class="fa fa-fw fa-bars" style="color:red; font-size: 40px;"></i>
+  <font style="font-family:Times New Roman, sans-serif; font-size: 40px; font-weight: bold; margin-left: 20px;">Lorem</font>
+  <i class="fa fa-shopping-cart" style=" font-size: 40px; color:red; margin-left: 40px"></i>
+</div>
+</div>
+
+
+
+  <div class="main">
+    <h2 style="font-family:Times New Roman , sans-serif; font-size:50px">What are you having for Lunch?</h2>
+    <ul class="dash_board">
+                <li style="margin-right: 470px;"><br>
+                  <center><img src="download (3).jfif" width="70px" height="70px" style=" border-radius: 35px;"></center>
+                  <center><b><font face="calibiri" size="2.5">Farmhouse Pizza</font></b></center><br><br>
+                </li>
+                <li><br>
+                  <center><img src=" download (2).jfif" width="70px" height="70px" style=" border-radius: 35px;"></center>
+                  <center><b><font face="calibiri" size="2.5">Loaded Nachos</font></b></center><br><br>
+                </li><br><br><br><br><br><br><br><br><br>
+                <li style="margin-right: 470px;"><br>
+                  <center><img src=" download (1).jfif" width="70px" height="70px" style=" border-radius: 35px;"></center>
+                  <center><b><font face="calibiri" size="2.5">Maxican Taco</font></b></center><br><br>
+                </li>
+                <li><br>
+                  <center><img src="download.jfif" height="70px" width="70px" style=" border-radius: 35px;"></center>
+                  <center><b><font face="calibiri" size="2.5">Hakka Noodles</font></b></center><br><br>
+                </li>   
+              </ul><br><br><br><br><br><br><br><br><br><br><br><br><br>
+              <font style="color:gray; font-family:calibri;font-size: 16px;">Lorem ipsum dolor sit amet, consectetor adipscing elit, sed do eiusmod tempor incididunt ut labore et.</font><br>
+              <font style="color:red; font-weight: bold">_____</font>
+</div>
+
+
+</body>
+</html>
+
